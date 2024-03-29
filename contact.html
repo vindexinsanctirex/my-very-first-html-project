@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>Contato</title>
+  </head>
+  <body>
+    <div class="left-column"></div>
+  <div class="main-content">
+    <a href="./index.html" class="button">Jornal Real</a>
+  <a href="./aboutme.html" class="button">Sobre</a>
+  <a href="./contact.html" class="button">Contato</a>
+  <br>
+  <h1 class="golden-box">Contato</h1>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {font-family: Arial, Helvetica, sans-serif;}
+    * {box-sizing: border-box;}
+    
+    input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: none;
+    }
+    
+    input[type=submit] {
+      background-color: #0f1111;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: 1s ease;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #7e9c36;
+      transition: 1s ease;
+    }
+    
+    .container {
+      border-radius: 5px;
+      background-color: #ffd700; 
+      border: 2px solid #b8860b; 
+      border-radius: 5px; 
+      padding: 20px;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div class="container">
+      <form action="/action_page.php">
+        <label for="name">Vossa-Graça</label>
+        <input type="text" id="name" name="vossagraça" placeholder="...">
+    
+        <label for="name">Casa-Real</label>
+        <input type="text" id="name" name="casareal" placeholder="...">
+  
+      <label for="country">Reino</label>
+      <select id="country" name="country">
+        <option value="Asturia">Asturia</option>
+        <option value="Kingoman">Kingoman</option>
+        <option value="Tropika">Tropika</option>
+      </select>
+  
+      <label for="subject">Assunto</label>
+      <textarea id="subject" name="subject" placeholder="Alegre-me..." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div>
+    </div>
+    <div class="right-column"></div>
+  </body>
+</html>
